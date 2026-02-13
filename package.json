@@ -3,11 +3,11 @@
   "icon": "dvc.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iterative/vscode-dvc-pack"
+    "url": "https://github.com/treeverse/vscode-dvc-pack"
   },
-  "bugs": "https://github.com/iterative/vscode-dvc-pack",
-  "homepage": "https://github.com/iterative/vscode-dvc-pack#readme",
-  "displayName": "DVC extension pack",
+  "bugs": "https://github.com/treeverse/vscode-dvc-pack",
+  "homepage": "https://github.com/treeverse/vscode-dvc-pack#readme",
+  "displayName": "DVC extension pack (Deprecated)",
   "description": "The most useful extensions for getting started with DVC.",
   "version": "0.0.1",
   "publisher": "iterative",
@@ -29,7 +29,7 @@
     "dvc"
   ],
   "extensionPack": [ 
-    "Iterative.dvc",
+    "lakefs-dvc.dvc",
     "ms-python.python",
     "redhat.vscode-yaml",
     "eamodio.gitlens",
