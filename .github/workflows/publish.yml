@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: '22'
           cache: 'yarn'
-          
+
       - run: yarn install
       - run: yarn build
 
@@ -33,5 +33,5 @@ jobs:
         uses: HaaLeo/publish-vscode-extension@v2
         with:
           extensionFile: ./vscode-dvc-pack.vsix
-          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          pat: ${{ secrets.VS_MARKETPLACE_TOKEN_ITERATIVE }}
           registryUrl: https://marketplace.visualstudio.com
