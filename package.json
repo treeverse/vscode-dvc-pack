@@ -9,7 +9,7 @@
   "homepage": "https://github.com/treeverse/vscode-dvc-pack#readme",
   "displayName": "DVC extension pack",
   "description": "The most useful extensions for getting started with DVC.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "lakeFS",
   "license": "Apache-2.0",
   "readme": "./README.md",
