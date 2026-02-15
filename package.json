@@ -29,7 +29,7 @@
     "dvc"
   ],
   "extensionPack": [ 
-    "lakefs-dvc.dvc",
+    "lakefs.lakefs-dvc",
     "ms-python.python",
     "redhat.vscode-yaml",
     "eamodio.gitlens",
