@@ -7,9 +7,9 @@
   },
   "bugs": "https://github.com/treeverse/vscode-dvc-pack",
   "homepage": "https://github.com/treeverse/vscode-dvc-pack#readme",
-  "displayName": "DVC extension pack (Deprecated)",
+  "displayName": "DVC extension pack (deprecated)",
   "description": "The most useful extensions for getting started with DVC.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "iterative",
   "license": "Apache-2.0",
   "readme": "./README.md",
@@ -20,7 +20,7 @@
     "Extension Packs"  
   ],
   "keywords": [
-    "iterative",
+    "lakefs",
     "data version control",
     "plots",
     "experiment tracking",
