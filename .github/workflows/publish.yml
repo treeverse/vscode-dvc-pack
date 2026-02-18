@@ -7,6 +7,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    environment:
+      name: legacy
+      url: https://marketplace.visualstudio.com/items?itemName=Iterative.vscode-dvc-pack
     steps:
       - name: Checkout
         id: checkout
@@ -33,5 +36,5 @@ jobs:
         uses: HaaLeo/publish-vscode-extension@v2
         with:
           extensionFile: ./vscode-dvc-pack.vsix
-          pat: ${{ secrets.VS_MARKETPLACE_TOKEN_ITERATIVE }}
+          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
           registryUrl: https://marketplace.visualstudio.com
