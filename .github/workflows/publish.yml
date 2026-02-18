@@ -7,6 +7,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    environment:
+      name: production
+      url: https://marketplace.visualstudio.com/items?itemName=lakefs.lakefs-dvc
     steps:
       - name: Checkout
         id: checkout
